@@ -1,6 +1,16 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
+//---------------------------------------------------------------------------------------------------
+//
+//  Function name   :   EvenOdd
+//  Input           :   Integer 
+//  Output          :   Boolean
+//  Description     :   Perform even or odd number
+//  Date            :   21/10/2026
+//  Author          :   Sanika Sunil Jitkar
+//
+//---------------------------------------------------------------------------------------------------
 bool EvenOdd(
             int iNo
             )

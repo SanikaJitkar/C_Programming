@@ -12,7 +12,7 @@
 //---------------------------------------------------------------------------------
 void CheckAdmission(float fMarks,int iAge)
 {
-    if((fMarks > 0) || (iAge > 0))
+    if((fMarks > 0) && (iAge > 0))
     {
         if((fMarks >= 60) && (iAge >= 17))
         {

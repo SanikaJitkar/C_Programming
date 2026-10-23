@@ -24,12 +24,13 @@ bool CheckYear(int iYear)
             return false;
         }
     }
+    return false;
 
 }
 int main()
 {
     int iYear = 0;
-    bool bRet = '\0';
+    bool bRet = false;
 
     printf("Enter Year:\n");
     scanf("%d",&iYear);
